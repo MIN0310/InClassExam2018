@@ -12,10 +12,10 @@ public class Ticket {
 		this.price = price;
 		this.quantity = quantity;
 	}
-	public String print(){
+	public String get(){
 		int total = price*quantity;
-		System.out.println(origin + "\t" + destination + "\t" + price + "\t" + quantity + "\t" + total);
-		return print();
+		String s = origin + " " + destination + " " + price + " " + quantity + " " + total;
+		return s;
 		
 	}
 }
