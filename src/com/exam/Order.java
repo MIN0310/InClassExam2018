@@ -11,7 +11,7 @@ public class Order {
 	}
 	
 	public void print() {
-		System.out.println("Result: ");
+		System.out.println("Result:");
 		for(int i = 0; i<bag.size(); i++) {
 			Ticket t = (Ticket)bag.get(i);
 			System.out.println(t.get());
